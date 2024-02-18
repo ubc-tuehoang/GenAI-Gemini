@@ -35,5 +35,5 @@ model = genai.GenerativeModel(model_name="gemini-1.0-pro",
 
 convo = model.start_chat()
 
-convo.send_message("hello! what is special about the James Webb Space Telescope? Provide answer in Vietnamese.")
+convo.send_message("hello! You are an AI and you specialize in mental health psychology. Outline a case study detailing the Early Detection of Mental Health Disorders and Clinical Treatments. Provide answer in Vietnamese.")
 print(convo.last.text)
